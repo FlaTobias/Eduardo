@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créditos</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url("/assets/tutubarao.jpg");
+            background-size: cover;
+            background-position: inherit;
+            background-repeat: no-repeat;
+        }
+        
+        .credit-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+        }
+        
+        .credits {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .credit {
+            margin: 0 10px;
+            width: 250px;
+            text-align: center;
+        }
+        
+        .credit img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="credit-container">
+        <h1>Créditos</h1>
+        
+        <div class="credits">
+            <div class="credit">
+                <img src="/assets/Bruno.png" alt="Bruno">
+                <p>
+                    <strong>BB Mirandinha</strong><br>
+                    CEO e idealizador do projeto.
+                </p>
+            </div>
+            
+            <div class="credit">
+                <img src="/assets/app2.png" alt="Dom">
+                <p>
+                    <strong>Dom Campello</strong><br>
+                    Teste de qualidade do projeto.
+                </p>
+            </div>
+            
+            <div class="credit">
+                <img src="/assets/flavio.png" alt="Foto Pessoa 3">
+                <p>
+                    <strong>Saibot Oivalf</strong><br>
+                    Desenvolvedor e designer.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

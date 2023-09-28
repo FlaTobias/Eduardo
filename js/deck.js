@@ -1,0 +1,138 @@
+const deck = [
+  {
+    name: "Dudu Piroka Branca",
+    image: "assets/Card1.png",
+    attributes: {
+      strength: 80,
+      defense: 40,
+      magic: 60,
+    },
+  },
+  {
+    name: "Dudu Potter",
+    image: "assets/Card2.png",
+    attributes: {
+      strength: 60,
+      defense: 40,
+      magic: 80,
+    },
+  },
+  {
+    name: "Dudu Fusão",
+    image: "assets/Card3.png",
+    attributes: {
+      strength: 60,
+      defense: 80,
+      magic: 40,
+    },
+  },
+  {
+    name: "Dudu Ban",
+    image: "assets/Card4.png",
+    attributes: {
+      strength: 40,
+      defense: 60,
+      magic: 80,
+    },
+  },
+  {
+    name: "Dudu Barão",
+    image: "assets/Card5.png",
+    attributes: {
+      strength: 80,
+      defense: 60,
+      magic: 40,
+    },
+  },
+  {
+    name: "Dudu e sua comida favorita",
+    image: "assets/Card6.png",
+    attributes: {
+      strength: 80,
+      defense: 40,
+      magic: 60,
+    },
+  },
+  {
+    name: "Dudu Rangers",
+    image: "assets/Card7.png",
+    attributes: {
+      strength: 80,
+      defense: 40,
+      magic: 60,
+    },
+  },
+  {
+    name: "Dudurioca",
+    image: "assets/Card8.png",
+    attributes: {
+      strength: 80,
+      defense: 60,
+      magic: 40,
+    },
+  },
+ {  name: "Dudu Falamansa",
+    image: "assets/Card9.png",
+    attributes: {
+      strength: 40,
+      defense: 80,
+      magic: 60,
+    },
+  },
+  {   name: "Dudusauro",
+    image: "assets/Card10.png",
+    attributes: {
+      strength: 80,
+      defense: 40,
+      magic: 60,
+    },
+  },
+  {   name: "Dudu Emo",
+  image: "assets/Card11.png",
+  attributes: {
+    strength: 40,
+    defense: 80,
+    magic: 60,
+  },
+},
+{   name: "Dudu Agroboy",
+image: "assets/Card12.png",
+attributes: {
+  strength: 40,
+  defense: 60,
+  magic: 80,
+},
+},
+{   name: "Duduxa",
+image: "assets/Card13.png",
+attributes: {
+  strength: 40,
+  defense: 80,
+  magic: 60,
+},
+},
+{   name: "Dudu Liberato",
+image: "assets/Card14.png",
+attributes: {
+  strength: 60,
+  defense: 80,
+  magic: 40,
+},
+},
+{   name: "Dudunão",
+image: "assets/Card15.png",
+attributes: {
+  strength: 60,
+  defense: 80,
+  magic: 40,
+},
+},
+{   name: "Wandudinha",
+image: "assets/Card16.png",
+attributes: {
+  strength: 40,
+  defense: 80,
+  magic: 60,
+},
+},
+];
